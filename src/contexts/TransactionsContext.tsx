@@ -1,9 +1,4 @@
-import React, {
-  ReactNode,
-  useCallback,
-  useEffect,
-  useState
-} from 'react'
+import React, { ReactNode, useCallback, useEffect, useState } from 'react'
 import { createContext } from 'use-context-selector'
 import { api } from '../lib/axios'
 
@@ -49,7 +44,7 @@ export const TransactionsProvider: React.FC<TransactionsProviderProps> = ({
       },
     })
     setTransactions(response.data)
-  }, []);
+  }, [])
 
   const createTransaction = useCallback(
     async (data: CreateTransactionInput) => {
