@@ -1,0 +1,44 @@
+{
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de site",
+      "type": "income",
+      "category": "Venda",
+      "price": 14000,
+      "createdAt": "2023-01-13T02:56:49.808Z"
+    },
+    {
+      "id": 2,
+      "description": "Hambúrguer",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 60,
+      "createdAt": "2023-01-11T01:58:00.675Z"
+    },
+    {
+      "id": 3,
+      "description": "Ignite",
+      "type": "outcome",
+      "category": "Educação",
+      "price": 1980,
+      "createdAt": "2023-01-09T01:58:00.675Z"
+    },
+    {
+      "description": "The Legend of Zelda: Tears of the Kingdom",
+      "price": 320,
+      "category": "Jogos",
+      "type": "outcome",
+      "createdAt": "2023-01-13T04:54:22.403Z",
+      "id": 4
+    },
+    {
+      "description": "Salário de janeiro",
+      "price": 3000,
+      "category": "Salário",
+      "type": "income",
+      "createdAt": "2023-01-13T05:48:18.210Z",
+      "id": 5
+    }
+  ]
+}
